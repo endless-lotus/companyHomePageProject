@@ -64,6 +64,7 @@ figure {
     margin-left: 0px;
     padding-left: 0px;
     overflow: hidden;
+    border-bottom: thick double #0C0C0C;
 }
 
 figure img {
