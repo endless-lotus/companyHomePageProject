@@ -22,9 +22,9 @@ nav {
 }
 
 h1 {
-    width: 200px;
+    width: 300px;
     color: #FFF8EB;
-    font-size: 1.75rem;
+    font-size: 2rem;
     letter-spacing: 0.125rem;
 }
 
@@ -76,6 +76,10 @@ article {
     text-align: center;
 }
 
+.intention {
+    margin-top: 3.5rem;
+}
+
 h2 {
     font-size: 3rem;
     letter-spacing: 0.25rem;
@@ -91,6 +95,7 @@ p {
 }
 
 .imageShowcase {
+    margin-top: 2.5rem;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
@@ -131,7 +136,38 @@ p {
     line-height: 0;
 }
 
+.started {
+    margin-top: 4rem;
+}
+
+.mocha img {
+    width: 52rem;
+    margin-left: -13.5rem;
+}
+
+.shot img {
+    width: 35rem;
+    margin-top: -6rem;
+    margin-left: -2.5rem;
+}
+
+.grounds img {
+    width: 45rem;
+    margin-left: -9.7rem;
+}
+
+.imgContainer {
+    overflow: hidden;
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 5%;
+    margin-bottom: 1.75rem;
+}
+
 footer {
+    margin-top: 1.75rem;
     height: 8rem;
     background-color: #0C0C0C; 
     color: #FFF8EB;
