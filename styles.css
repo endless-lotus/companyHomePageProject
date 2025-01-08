@@ -12,24 +12,26 @@ nav {
 }
 
 .grid {
-    display: grid;
     display:flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
-.col {
-    flex: 1;
+.logo {
+    flex: 4.5;
 }
 
 h1 {
-    border: 1px solid red;
     width: 200px;
     color: #3a3430;
     font-size: 1.75rem;
 }
 
+.links {
+    flex: 1;
+}
+
 nav ul {
-    border: 1px solid red;
     display: inline-flex;
     justify-content: space-between;
     width: 250px;
