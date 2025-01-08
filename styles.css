@@ -69,15 +69,20 @@ figure img {
 }
 
 article {
-
+    padding-top: .25rem;
+    text-align: center;
 }
 
 h2 {
-
+    letter-spacing: 0.185rem;
+    line-height: 0.2rem;
 }
 
 p {
-
+    width: 60%;
+    margin: auto;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
 }
 
 .imageShowcase {
@@ -85,6 +90,10 @@ p {
 }
 
 .image {
+    border: 1px solid red;
+}
+
+.image img {
 
 }
 
