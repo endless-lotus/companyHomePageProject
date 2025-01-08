@@ -7,7 +7,7 @@ body, html {
 
 nav {
     margin-top: -20px;
-    background-color: #fff8eb;
+    background-color: #0C0C0C;
     width: 100%;
 }
 
@@ -23,8 +23,9 @@ nav {
 
 h1 {
     width: 200px;
-    color: #3a3430;
+    color: #FFF8EB;
     font-size: 1.75rem;
+    letter-spacing: 0.125rem;
 }
 
 .links {
@@ -34,7 +35,8 @@ h1 {
 nav ul {
     display: inline-flex;
     justify-content: space-between;
-    width: 250px;
+    width: 300px;
+    letter-spacing: 0.125rem;
 }
 
 nav ul li{
@@ -43,13 +45,13 @@ nav ul li{
 }
 
 nav a {
-    color: #615a56;
+    color: #FFF8EB;
     text-decoration: none;
 }
 
 nav a:hover {
     text-decoration: underline;
-    color: #3a3430;
+    color: #C2D8B9;
 }
 
 main {
@@ -125,18 +127,29 @@ p {
 }
 
 .title {
-    padding-top: 0;
     line-height: 0;
 }
 
 footer {
+    height: 8rem;
+    background-color: #0C0C0C; 
+    color: #FFF8EB;
+    text-align: center;
+}
 
+footer p {
+    padding-bottom: .15rem;
 }
 
 footer a{
+    color: #C2D8B9;
+}
 
+.address {
+    padding-top: .25rem;
 }
 
 address {
-    
+    text-align: center;
+    padding-bottom: .25rem;
 }
