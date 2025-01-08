@@ -74,7 +74,8 @@ article {
 }
 
 h2 {
-    letter-spacing: 0.185rem;
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
     line-height: 0.2rem;
 }
 
@@ -83,22 +84,49 @@ p {
     margin: auto;
     font-size: 1.25rem;
     line-height: 1.75rem;
+    padding-bottom: 2rem;
 }
 
 .imageShowcase {
-
-}
-
-.image {
-    border: 1px solid red;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .image img {
+    height: 38rem;
+}
 
+.imgStyle {
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+    overflow: hidden;
+    display: flex;
+    align-items: baseline;
+}
+
+.Jessica img {
+    height: 28rem;
 }
 
 .image p {
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
 
+.name {
+    padding-top: 1.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.title {
+    padding-top: 0;
+    line-height: 0;
 }
 
 footer {
