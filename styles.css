@@ -2,6 +2,7 @@ body, html {
     margin: 0px;
     padding: 0px;
     border: none;
+    font-size: 16px;
 }
 
 nav {
@@ -13,28 +14,40 @@ nav {
 .grid {
     display: grid;
     display:flex;
-    align-items: baseline;
-    align-content: space-around;
+    align-items: center;
 }
 
-
 .col {
-    border: 1px dotted black;
     flex: 1;
 }
 
 h1 {
     border: 1px solid red;
-    width: 150px;
+    width: 200px;
+    color: #3a3430;
+    font-size: 1.75rem;
 }
 
 nav ul {
     border: 1px solid red;
+    display: inline-flex;
+    justify-content: space-between;
     width: 250px;
 }
 
 nav ul li{
-    display: inline-flex;
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+
+nav a {
+    color: #615a56;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #3a3430;
 }
 
 h1 {
